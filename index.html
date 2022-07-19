@@ -1,0 +1,166 @@
+<!--
+Portfolio Site ver 1.0.0
+  
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Snippet Cheatsheet</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href=".reset.css"/>
+</head>
+
+<body>
+  <header>
+    <img src="Assets/banner.jpg" class="banner" title="">
+    <!-- TODO: fix so pre can be utilized instead of an image  -->
+    <!-- <pre>
+                __                                        __                              ___                                                     
+               /\ \__                                    /\ \                   __       /\_ \                      __                            
+            ___\ \ ,_\    __  __  __    __    ___        \_\ \     __      ___ /\_\     _\//\ \      __  __  __  __/\_\    ___  ____              
+           /',__\ \ \/  /'__`/\ \/\ \ /'__`\/' _ `\      /'_` \  /'__`\  /' _ `\/\ \  /'__`\ \ \   /'__`/\ \/\ \/\ \/\ \  /'___/\_ ,`\            
+          /\__, `\ \ \_/\  __\ \ \_/ /\  __//\ \/\ \    /\ \L\ \/\ \L\.\_/\ \/\ \ \ \/\  __/\_\ \_/\  __\ \ \_/ \_/ \ \ \/\ \__\/_/  /_           
+          \/\____/\ \__\ \____\ \___/\ \____\ \_\ \_\   \ \___,_\ \__/.\_\ \_\ \_\ \_\ \____/\____\ \____\ \___x___/'\ \_\ \____\/\____\          
+           \/___/  \/__/\/____/\/__/  \/____/\/_/\/_/    \/__,_ /\/__/\/_/\/_/\/_/\/_/\/____\/____/\/____/\/__//__/   \/_/\/____/\/____/ ver 1.0.0
+    </pre> -->
+    <h1>
+      Full Stack Developer
+    </h1>
+  </header>
+
+  <!-- nav bar -->
+  <nav>
+    <a href="#about_me" title="about me">about_me</a>
+    <a href="#contact" title="contact me">contact_me</a>
+    <a href="#my_projects" title="my projects">projects</a>
+    <a href="https://github.com/sdanielewicz/" tile="my github" target="_blank" rel="noopener noreferrer">github</a>
+  </nav>
+
+  <!-- start main content -->
+  <main class="flex">
+    <div id="about">
+      <!-- sidebar with about me and contact info -->
+      <aside>
+        <section id="about_me">
+          <h1>
+            About:
+          </h1>
+          <img src="Assets/profile.jpg" class="profile_pic" title="profile pic of me" alt="profile pic">
+            <p>
+              Oremlay ipsumyay olorday itsay ametyay, onsectetuercay adipiscingyay elityay. Edsay itaevay eolay inyay iamday empersay orttitorpay. Ullamnay idyay augueyay.
+            </p>
+            <p>
+              ecenasmay atyay acuslay isquay islnay auctoryay imperdietyay. Integeryay incidunttay acinialay elitvay. Uspendissesay aretraphay. Uisday ariusvay. Ellentesquepay abitanthay orbimay istiquetray enectussay etyay etusnay etyay alesuadamay
+            </p>
+            <p>
+              Amesfay acyay urpis  tay egestasyay. Oinpray ullamcorperyay aretraphay uruspay. Ullanay itaevay ortortay. Etiamyay acinialay ictumday
+            </p>
+        </section>
+
+        <section id="contact">  
+          <h1>
+            Contact:
+          </h1>
+          <div>
+            <ul>
+              <li>
+                phone: 
+                <ul>
+                  <li>
+                    (555) 123 - 1234
+                  </li>
+                </ul>
+              </li>
+              <li>
+                em@il:
+                <ul>
+                  <li> 
+                    <a href="mailto:sdanielewicz@gmail.com">sdanielewicz@gmail.com</a>
+                  </li>  
+                </ul>
+              </li>
+              <li>
+                <a href="https://github.com/sdanielewicz/" tile="my github" target="_blank" rel="noopener noreferrer">Github</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/steven-danielewicz-b93b74130/" tile="my github" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <!-- projects section  -->
+    <div class="projects_container pos_relative">
+      <section id="my_projects">
+        <h1>
+          Projects:
+        </h1>
+        <a href="https://github.com/sdanielewicz/" tile="my github" target="_blank" rel="noopener noreferrer">
+          <img id="capstone_img" src=".\Assets\sequencer.jpg" title="musical sequencer" alt="sequencer project">
+        </a>
+        <div class="capstone_overlay">
+          <h2>
+            Capstone Project: Web-based Sequencer
+          </h2>
+        </div>
+          
+        <div class="proj_sub_container flex pos_relative">
+          <div class="proj_row1 pos_relative">
+            <a href="https://github.com/sdanielewicz/" tile="my github" target="_blank" rel="noopener noreferrer">          
+              <img src=".\Assets\automate.jpg" title="automation code" alt="automation">
+            </a>
+            <div class="overlay">
+              <h2>
+                IT Automation
+              </h2>              
+            </div>
+        </div>
+  
+        <div class="proj_row1 pos_relative">  
+          <a href="https://github.com/sdanielewicz/" tile="my github" target="_blank" rel="noopener noreferrer">             
+            <img src=".\Assets\comic.jpg" title="comic book page" alt="comic book tracker">
+          </a>
+          <div class="overlay">
+            <h2>
+              Comic Book Release Tracker
+            </h2>          
+          </div>
+        </div>
+
+      <!-- break to force projects to the next row   -->
+      <break></break>
+                
+        <div class="proj_row2 pos_relative">
+          <a href="https://github.com/sdanielewicz/" tile="my github" target="_blank" rel="noopener noreferrer">
+            <img src=".\Assets\visualizer.jpg" title="music visualizer" alt="visualizer">
+          </a>
+          <div class="overlay">
+            <h2>
+              Music Visualizer
+            </h2>                   
+          </div>
+        </div>
+
+        <div class="proj_row2 pos_relative">
+          <a href="https://github.com/sdanielewicz/" tile="my github" target="_blank" rel="noopener noreferrer">
+            <img src=".\Assets\ev.jpg" title="EV pump" alt="EV savings">
+          </a>
+          <div class="overlay">
+            <h2>
+              EV Savings Calculator
+            </h2>           
+          </div>
+        </div>
+      </section>                
+    </div>
+  
+  </main>
+</body>
+</html>
