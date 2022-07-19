@@ -6,7 +6,7 @@ A first version of a future full stack developer portfolio. Stylistically meant 
 
 
 ### Installation
-Link to the deployed application can be found [here](https://google.com "Portfolio Challenge").
+Link to the deployed application can be found [here](https://sdanielewicz.github.io/portfolio_site/ "Portfolio Challenge").
 
 ### Usage
 Navigte to the deployed project. Links for Projects link back to github for now. Page should look like this: 
